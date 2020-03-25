@@ -1,0 +1,52 @@
+/** 
+ * MetodoS HTTP
+ * 
+ * get: busca uma informacao
+ * post: cria uma informacao
+ * put: altera uma informacao
+ * delete: deleta uma informacao
+ * 
+ **/
+
+ /**
+  * Tipos de parametros
+  * 
+  * Query Params: parametros nomeados enviados na roda apos ? serve para filtros, paginacao, etc
+  * Routes Params: para identificar recursos, um unico recurso (:id)
+  * Request Body: corpo da requisicao, para criar ou alterar recursos
+  * 
+**/
+
+/**
+ * SQL: MySQL, SQLite, PostgreSQL, Oracle, 
+ * NoSQL: MongoDB, CouchDB
+ */
+
+
+ /**
+  * Driver: SELECT * FROM USERS
+  * QueryBuilder: table('users').select('*') - vamos usar o KNEX
+  */
+
+
+Entidades
+
+- Ong
+- Casos (incident)
+
+Funcionalidades
+
+- Login de ong
+- Cadastrar de ong
+- Logout de ong
+- Cadastrar novos Casos
+- Deletar Casos
+- Listar casos especificos de uma ong
+- Listar todos os casos
+- Entrar em contato com a ONG
+
+criar migration
+npx knex migrate:make create_ongs
+
+criar tabela 
+npx knex migrate:latest
