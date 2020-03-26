@@ -1,6 +1,7 @@
 const connection = require('../database/connection');
 
 module.exports = {
+    //For MVC projects it is indicated just 5 methods per controller
     async index(request, response) {
         const { page = 1 } = request.query;
         
