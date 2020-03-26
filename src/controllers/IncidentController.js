@@ -2,8 +2,16 @@ const connection = require('../database/connection');
 
 module.exports = {
     async index(request, response) {
-        console.log('entrou na lista');
-        const incidents = await connection('incidents').select('*');
+        const { page = 1 } = request.query;
+        
+        const [count] = await connection('incidents').count();
+
+        const incidents = await connection('incidents')
+            .limit(5)
+            .offset((page -1) * 5)
+            .select('*');
+
+        response.header('X-Total-Count', count['count(*)']);
 
         return response.json(incidents);
     },
@@ -20,8 +28,6 @@ module.exports = {
     },
 
     async delete(request, response) {
-
-        console.log('entrou no delete');
         const { id } = request.params;
         const ong_id = request.headers.authorization;
 
