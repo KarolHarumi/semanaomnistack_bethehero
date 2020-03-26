@@ -11,7 +11,7 @@ In progress...
 
 ## Installation
 
-Install NPM dependencies and run `nodemon` on terminal
+Install NPM dependencies and run `npm start` on terminal
 
 ## Support
 For any support contact me by email on karol.harumi@gmail.com
