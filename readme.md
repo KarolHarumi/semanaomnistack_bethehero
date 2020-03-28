@@ -19,5 +19,13 @@ For any support contact me by email on karol.harumi@gmail.com
 ## Roadmap
 In progress...
 
+## Stack
+
+### Frontend
+- react-icons for icons
+- react-router-dom for routes
+
+### Backend
+
 ## License
 In progress...
