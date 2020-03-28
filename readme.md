@@ -24,6 +24,7 @@ In progress...
 ### Frontend
 - react-icons for icons
 - react-router-dom for routes
+- axios client http responsible for to call api endpoints
 
 ### Backend
 
