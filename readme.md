@@ -30,3 +30,7 @@ In progress...
 
 ## License
 In progress...
+
+
+
+npx react-native start
