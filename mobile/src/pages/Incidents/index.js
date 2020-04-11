@@ -47,7 +47,7 @@ export default function Incidents() {
                                 onPress={navigateToDetail}
                             >
                                 <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-                                <Icon name="arrow-forward-outline" size={ 16 } color={'#e02041'} />
+                                <Icon name="arrow-forward" size={ 16 } color={'#e02041'} />
                             </TouchableOpacity>
                         </View>
                 )} />
