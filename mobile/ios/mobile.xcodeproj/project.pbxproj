@@ -20,6 +20,7 @@
 		7B61566FADFD94B99A2A9EF1 /* libPods-mobile-mobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8A4BC876BDCFF7789B5297 /* libPods-mobile-mobileTests.a */; };
 		CE2837A705F3B4F8B86AAA24 /* libPods-mobile-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A98033B787FE11E4FB900A95 /* libPods-mobile-tvOS.a */; };
 		D3A6F5BF92CF9912A4D14C97 /* libPods-mobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC8281D1EBDAD547E9582F0 /* libPods-mobile.a */; };
+		54B03A8F886B45058C4634F8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39B15F499DF4D72A773CA04 /* Ionicons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FAF06B889CD1C4A3BA744615 /* libPods-mobile-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobile-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA29B7F674C212F00CC6C71 /* Pods-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobile.debug.xcconfig"; path = "Target Support Files/Pods-mobile/Pods-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		B39B15F499DF4D72A773CA04 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-ionicons/fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F2DAE0C27C097382CAB3C949 /* Pods */,
+				78994E8A20484568B45F7772 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +200,15 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		78994E8A20484568B45F7772 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				B39B15F499DF4D72A773CA04 /* Ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +352,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				54B03A8F886B45058C4634F8 /* Ionicons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
