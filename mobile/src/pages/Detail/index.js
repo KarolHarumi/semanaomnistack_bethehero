@@ -1,8 +1,9 @@
 import React from 'react';
-import { Text, View, TouchableOpacity, Image } from 'react-native';
+import { Text, View, TouchableOpacity, Image, Linking } from 'react-native';
 import Icon from 'react-native-ionicons';
 import { useNavigation } from '@react-navigation/native';
 import SafeAreaView from 'react-native-safe-area-view';
+import { openComposer } from 'react-native-email-link'
 
 import logoImg from './../../assets/logo.png';
 
@@ -10,9 +11,22 @@ import styles from './styles'
 
 export default function Detail() {
     const navigation = useNavigation();
+    const message = 'Olá APAD, estou entrando em contato, pois gostaria de de saber sobre o caso XPTO.';
 
     function navigateBack() {
         navigation.goBack();
+    }
+
+    function sendMail() {
+        openComposer({
+            subject: 'Herói do caso: Cadelinha atropelada',
+            to: 'karol.harumi@bethehero.com',
+            body: message,
+        })
+    }
+
+    function sendWhatsapp() {
+        Linking.openURL(`whatsapp://send?phone=000000t=${message}`);
     }
 
     return(
@@ -44,11 +58,11 @@ export default function Detail() {
                     <Text style={styles.heroDescription}>Entre em contato:</Text>
 
                     <View style={styles.actions}>
-                        <TouchableOpacity style={styles.action} onPress={() => {}}>
+                        <TouchableOpacity style={styles.action} onPress={sendWhatsapp}>
                             <Text style={styles.actionText}>Whatsapp</Text>
                         </TouchableOpacity>
 
-                        <TouchableOpacity style={styles.action} onPress={() => {}}>
+                        <TouchableOpacity style={styles.action} onPress={sendMail}>
                             <Text style={styles.actionText}>E-mail</Text>
                         </TouchableOpacity>
                     </View>
