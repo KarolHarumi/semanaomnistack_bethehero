@@ -37,7 +37,8 @@
 - axios client http responsible for to call api endpoints
 
 ### Backend
--
+- celebrate an express middleware function that wraps the joi validation library
+- joi data validator for JavaScript
 
 ### Mobile
 - react-native
