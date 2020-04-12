@@ -3,15 +3,23 @@
 ## Description
 "Semana Omnistack" is a Rocketseat initiative to help developers boost their development skills.
 
-## Badges
-In progress...
-
 ## Visuals
-In progress...
+
+### Web
+
+![Web Login](/assets/images/web1.png) 
+![Web Ong Register](/assets/images/web2.png)
+![Web Incidents](/assets/images/web3.png) 
+![Web Register Incident](/assets/images/web4.png)
+
+### Mobile
+
+![Mobile Incidents](/assets/images/mobile1.png) 
+![Mobile Details](/assets/images/mobile2.png)
 
 ## Installation
 
-### Frontned
+### Frontend
 - Install NPM dependencies and run `npm start` on terminal
 
 ### Backend
@@ -20,12 +28,6 @@ In progress...
 ### Mobile
 - Install YARN dependencies
 - run `yarn react-native start` and `yarn react-native run-ios` on terminal
-
-## Support
-For any support contact me by email on karol.harumi@gmail.com
-
-## Roadmap
-In progress...
 
 ## Stack
 
@@ -39,8 +41,11 @@ In progress...
 
 ### Mobile
 - react-native
-- axios
-- ionicons
+- axios client http responsible for to call api endpoints
+- ionicons for icons
+- intl for currency symbol
+- react-native-safe-area-view to access safe area inset info
+- react-native-email-link to open email client
 
-## License
-In progress...
+## Support
+For any support contact me by email on karol.harumi@gmail.com
