@@ -11,7 +11,15 @@ In progress...
 
 ## Installation
 
-Install NPM dependencies and run `npm start` on terminal
+### Frontned
+- Install NPM dependencies and run `npm start` on terminal
+
+### Backend
+- Install NPM dependencies and run `npm start` on terminal
+
+### Mobile
+- Install YARN dependencies
+- run `yarn react-native start` and `yarn react-native run-ios` on terminal
 
 ## Support
 For any support contact me by email on karol.harumi@gmail.com
@@ -27,10 +35,12 @@ In progress...
 - axios client http responsible for to call api endpoints
 
 ### Backend
+-
+
+### Mobile
+- react-native
+- axios
+- ionicons
 
 ## License
 In progress...
-
-
-
-npx react-native start
