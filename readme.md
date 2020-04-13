@@ -24,6 +24,7 @@
 
 ### Backend
 - Install NPM dependencies and run `npm start` on terminal
+- To run tests just type `yarn test`on terminal
 
 ### Mobile
 - Install YARN dependencies
@@ -39,6 +40,9 @@
 ### Backend
 - celebrate an express middleware function that wraps the joi validation library
 - joi data validator for JavaScript
+- cross-env environment variable
+- jest for unit and integration tests
+- supestest request http and validations for tests
 
 ### Mobile
 - react-native

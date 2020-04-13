@@ -50,3 +50,22 @@ npx knex migrate:make create_ongs
 
 criar tabela 
 npx knex migrate:latest
+
+
+------
+
+unitarios - pedaco da aplicacao de forma isolada, algo muito especifico, nao tem side effects, nao se comunica com outras apis
+integracao - fluxo de uma rota inteira
+
+export default nao existe no node, o certo é module.exports
+
+
+axios nao é recomendado para testes recomendado usar a supertest
+
+
+backend
+hospedar free no heroku aplicacao simples em node
+caso crescer a digital ocean tem um preco de 5 doletas para pequenas aplicacoes
+
+frontend
+netlify - especifico para front end
