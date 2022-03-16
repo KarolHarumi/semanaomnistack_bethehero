@@ -33,7 +33,7 @@
 
 ### Mobile
 
-- Install YARN dependencies
+- Install yarn dependencies
 - run `yarn react-native start` and `yarn react-native run-ios` on terminal
 
 ## Stack
